@@ -16,8 +16,10 @@ public class DescontoSimples extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_desconto_simples);
 
+
         Button calcular3 = findViewById(R.id.calcular3);
         calcular3.setOnClickListener(calcularJuros);
+
     }
 
     private View.OnClickListener calcularJuros = new View.OnClickListener(){
