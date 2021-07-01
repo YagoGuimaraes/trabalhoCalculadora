@@ -11,12 +11,12 @@
         android:id="@+id/btDescontoSimples"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="64dp"
         android:text="@string/desconto_simples"
         android:textColor="@color/ic_launcher_background"
         app:backgroundTint="@color/purple_700"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,13 +24,13 @@
         android:id="@+id/btJurosComposto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="224dp"
+        android:layout_marginBottom="92dp"
         android:text="@string/juros_composto"
         android:textColor="@color/ic_launcher_background"
         app:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -43,9 +43,9 @@
         app:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toTopOf="@+id/btJurosComposto"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btDescontoSimples"
-        app:layout_constraintVertical_bias="0.402" />
+        app:layout_constraintVertical_bias="0.446" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
